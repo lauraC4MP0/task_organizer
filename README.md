@@ -18,7 +18,8 @@ nmp start
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [Node.js](https://nodejs.org/es) - Entorno de programación
-* [MySQL]() - Sistema de gestión base de datos
+* [MySQL](https://www.mysql.com) - Sistema de gestión base de datos
+
 
 ## Autores 📍
 
