@@ -1,0 +1,45 @@
+<!-- views/pages/new.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('partials/head') %>
+</head>
+<body class="container">
+
+<header>
+    <%- include ('partials/header', {name: name}) %>
+</header>
+
+<main>
+    <div class="jumbotron">
+        <form class="form-new" action="/new" method="POST">
+            <div class="form-group">
+                <h2>New ToDo</h2>
+            </div>
+            <% if (error) { %>
+                <div class="alert alert-danger">
+                    Hacen falta todos los campos
+                </div>
+            <% } %>
+            <div class="form-group">
+                <label for="subject" class="sr-only">Subject</label>
+                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject of ToDo" required="">
+            </div>
+            <div class="form-group">
+                <label for="description" class="sr-only">Description</label>
+                <textarea name="description" id="description" class="form-control" placeholder="Description" required="" autofocus=""></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Save</button>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <%- include ('partials/footer') %>
+</footer>
+
+</body>
+</html>

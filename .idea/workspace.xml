@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ccb0685-daa1-4737-87b3-b328480959f1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Wcnsd7y8h0NT9ZWB6E1rqxt4v2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/routes" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ccb0685-daa1-4737-87b3-b328480959f1" name="Default Changelist" comment="" />
+      <created>1579457958606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579457958606</updated>
+      <workItem from="1579457959895" duration="191000" />
+      <workItem from="1579468045261" duration="124000" />
+      <workItem from="1579502813657" duration="99000" />
+      <workItem from="1579619091905" duration="17351000" />
+      <workItem from="1580234390219" duration="236000" />
+      <workItem from="1580367765120" duration="244000" />
+      <workItem from="1580809468604" duration="451000" />
+      <workItem from="1580813857159" duration="1012000" />
+      <workItem from="1580907345688" duration="2128000" />
+      <workItem from="1580937633741" duration="289000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1038" y="536" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579687887359">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1038" y="536" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1579687887359" />
+    <state x="966" y="495" width="698" height="462" key="find.popup" timestamp="1579622772661">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="966" y="495" width="698" height="462" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1579622772661" />
+  </component>
+</project>

@@ -1,0 +1,40 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('partials/head') %>
+</head>
+<body class="container">
+
+<header>
+    <%- include ('partials/header', {name: name}) %>
+</header>
+
+<main>
+    <div class="jumbotron ">
+        <h1>ToDos</h1>
+        <ul class="list-group">
+            <% todos.forEach(function(todo){ %>
+                <div class="list-group-item  list-group-item-action">
+                    <span>
+                        <%= todo.subject %>
+                    </span>
+                    <a class="btn btn-xs btn-default float-right " href="delete?id=<%= todo.id %>">
+                        Delete
+                    </a>
+                    <a class="btn btn-xs btn-default float-right " href="detail?id=<%= todo.id %>">
+                        View
+                    </a>
+                </div>
+            <% }); %>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    <%- include ('partials/footer') %>
+</footer>
+
+</body>
+</html>

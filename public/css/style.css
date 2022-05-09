@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.form-signin, .form-new {
+  width: 400px;
+  margin: auto;
+}
+
+.jumbotron, .card {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.card-header {
+  background-color: #0095ff;
+}

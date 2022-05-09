@@ -1,0 +1,32 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('partials/head') %>
+</head>
+<body class="container">
+
+<header>
+    <%- include ('partials/header', {name: name}) %>
+</header>
+
+<main>
+    <div class="jumbotron ">
+        <h1>Delete Todo?</h1>
+        <form  action="/delete?id=<%= id %>" method="POST">
+            <input type="hidden" name="id" id="id" value="<%= id %>">
+            <div class="form-group">
+                <button class="btn btn-lg btn-primary btn-lg" type="submit">Yes</button>
+                <a class="btn btn-lg btn-primary btn-lg" href="index">No</a>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <%- include ('partials/footer') %>
+</footer>
+
+</body>
+</html>

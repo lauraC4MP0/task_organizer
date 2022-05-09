@@ -1,0 +1,41 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('partials/head') %>
+</head>
+<body class="container">
+
+<main>
+    <div class="jumbotron">
+        <form class="form-signin" action="/" method="POST">
+            <div class="form-group">
+                <h2>Login</h2>
+            </div>
+            <% if (loginError) { %>
+                <div class="alert alert-danger">
+                    Error en eel login
+                </div>
+            <% } %>
+            <div class="form-group">
+                <label for="name" class="sr-only">User name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="User name" required="">
+            </div>
+            <div class="form-group">
+                <label for="email" class="sr-only">Email address</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email address" required="" autofocus="">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <%- include ('partials/footer') %>
+</footer>
+
+</body>
+</html>
