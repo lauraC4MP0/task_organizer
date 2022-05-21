@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include ('partials/head') &>
+    </head>
+    <body class="container">
+        <main>
+            <div class="jumbotron">
+                <form class="form-sigunp" action="/" method="POST">
+                    <div class=""form-group">
+                    <h2>Sign Up</h2></div>
+                    <% if(signupError){%>
+                    <div class="alert alert-danger">
+                        Error creando la cuenta
+                    </div>}
+                    <% } %>
+                    <div class="form-group">
+                        <label for="name" class="sr-only">Email</label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Email address" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="id" class="sr-only">Id</label>
+                        <input type="number" name="id" id="id" class="form-control" placeholder="Id" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="">
+                    </div>
+                </form>
+                <p>¿Ya tienes cuenta? <a href="login?id=<%= todo.id %>">Inicia sesión aquí</a></p>
+            </div>
+        </main>
+        <footer>
+            <% -include ('partials/footer') &>
+        </footer>
+    </body>
+</html>

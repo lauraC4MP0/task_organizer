@@ -1,6 +1,6 @@
 # task_organizer 🗓️
 
-_Repositorio correspondiente a la documentación de la aplicación Web organizadora de tareas_
+_Repositorio correspondiente a la documentación de la aplicación Web organizadora de tareas._
 
 ## ¿Qué es Task Organizer? ✍️
 
@@ -12,6 +12,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 ```
 nmp start
+node bin/www
 ```
 ## Construido con 🛠️
 
